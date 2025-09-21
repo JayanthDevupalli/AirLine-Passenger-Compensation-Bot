@@ -1,0 +1,35 @@
+{
+    "CompensationRules": {
+        "FlightDelay": {
+            "2_to_3_hours": {
+                "Domestic": "₹3,000 or free reschedule",
+                "International": "€250"
+            },
+            "3_to_5_hours": {
+                "Domestic": "₹5,000",
+                "International": "€400"
+            },
+            "5_plus_hours": {
+                "Domestic": "Full refund or reschedule + ₹10,000 voucher",
+                "International": "€600"
+            }
+        },
+        "FlightCancellation": {
+            "AdvanceNotice": {
+                "MoreThan14Days": "No compensation",
+                "7_to_14Days": "₹3,000 (Domestic) / €250 (International)",
+                "LessThan7Days": "₹5,000 (Domestic) / €400 (International)"
+            },
+            "NoNotice": "Full refund + ₹10,000 (Domestic) / €600 (International)"
+        },
+        "BaggageDelay": {
+            "UpTo24h": "₹2,000 / €50",
+            "24_to_72h": "₹5,000 / €150",
+            "72_plus_h": "₹10,000 / €300"
+        },
+        "BaggageLoss": {
+            "Domestic": "₹20,000",
+            "International": "€800"
+        }
+    }
+}
